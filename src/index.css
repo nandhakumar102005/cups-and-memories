@@ -825,7 +825,7 @@ top: 20px;
 
   .tbform {
     position: relative;
-    top: 130px;
+    top: 150px;
     left: 20px;
     background: transparent;
     backdrop-filter: blur(10px);
@@ -896,7 +896,15 @@ top: 20px;
 }
 
 
+}
 
 
+
+
+@media(max-width:400px){
+
+.brandname{
+  font-size: 1.5rem;
+}
 
 }
