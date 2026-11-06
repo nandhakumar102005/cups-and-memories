@@ -845,8 +845,8 @@ top: 20px;
   }
 
   .menucard {
-    max-width: 150px;
-    max-height: 160px;
+    max-width: 160px;
+    max-height: 170px;
     text-align: center;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -854,7 +854,7 @@ top: 20px;
   }
 
   .menucardimg {
-    height: 150px;
+    height: 170px;
     width: 160px;
     border-radius: 2px;
     border-top-left-radius: 20px;
