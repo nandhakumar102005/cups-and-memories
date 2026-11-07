@@ -909,5 +909,22 @@ top: 20px;
 .brandname{
   font-size: 1.3rem;
 }
+  .menucard {
+    max-width: 140px;
+    max-height: 150px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+  }
+
+  .menucardimg {
+    height: 150px;
+    width: 140px;
+    border-radius: 2px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
 
 }
