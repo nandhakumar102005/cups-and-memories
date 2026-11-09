@@ -10,7 +10,7 @@ function TableBooking(){
         name:"",
         number:"",
         email:"",
-        persons:"",
+        Guests:"",
         date:""
     })
 
@@ -46,7 +46,7 @@ const Handlesubmit =(e)=>{
             name: "",
             number: "",
             email: "",
-            persons: "",
+            Guests: "",
             date: ""
         });
          }
@@ -70,7 +70,7 @@ const Handlesubmit =(e)=>{
                 <input type="text" placeholder="Enter your  Phone Number" name="number" value={formData.number} onChange={Handlechange} required />
                 <input type="text" placeholder="Enter your E-mail ID" name="email" value={formData.email} onChange={Handlechange} required />
                 <select  id="" name="persons" value={formData.persons} onChange={Handlechange}>
-                    <option className="tboption" value="">How Many Persons?</option>
+                    <option className="tboption" value="">Number of Guests?</option>
                     <option className="tboption" value="2">2</option>
                     <option className="tboption" value="4">4</option>
                     <option className="tboption" value="6">6</option>
