@@ -944,6 +944,11 @@ top: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
   }
+  .storyimg{
+  height: 250px;
+  width: 350px;
+}
+
 
 
 }
