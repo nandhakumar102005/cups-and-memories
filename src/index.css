@@ -650,6 +650,21 @@ top: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
   }
+  .mainstory{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   flex-direction: column;
+
+}
+.storyh1{
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.storyp{
+  margin-left: 0px;
+}
 
 
 }
