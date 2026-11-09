@@ -19,7 +19,7 @@ function Home() {
                     <h1 id="createtit"> Create Memories with a Cup of Coffee</h1>
                     <div id="btncont">
                     <Link to={"/Menu"}><button id="vbtn">Visit</button></Link> 
-                <Link to={"/TableBooking"}>    <button id="tbtn">Reserve Table</button></Link>
+                <Link to={"/TableBooking"}>    <button id="tbtn">Book Tables</button></Link>
 
                     </div>
                     
