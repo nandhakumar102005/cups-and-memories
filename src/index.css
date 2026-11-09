@@ -5,6 +5,10 @@
 
 }
 
+body,html{
+    overflow-x: hidden;
+}
+
 .homecont {
   background-image: url("./assets/Ai.jpeg");
 
