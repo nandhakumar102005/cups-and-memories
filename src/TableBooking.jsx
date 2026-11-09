@@ -10,7 +10,7 @@ function TableBooking(){
         name:"",
         number:"",
         email:"",
-        guests:"",
+        Guest:"",
         date:""
     })
 
@@ -29,7 +29,7 @@ const Handlechange = (e) =>{
 const Handlesubmit =(e)=>{
     e.preventDefault();
 
-    if (!formData.name || !formData.number || !formData.email || !formData.guests || !formData.date) {
+    if (!formData.name || !formData.number || !formData.email || !formData.persons || !formData.date) {
             alert("Please fill in all the details before booking!");
             return;
         }
@@ -46,7 +46,7 @@ const Handlesubmit =(e)=>{
             name: "",
             number: "",
             email: "",
-            guests: "",
+            Guest: "",
             date: ""
         });
          }
@@ -96,7 +96,7 @@ const Handlesubmit =(e)=>{
                                 <p><strong>Name:</strong>{formData.name}</p>
                                  <p><strong>Phone:</strong>{formData.number}</p>
                                   <p><strong>Email:</strong>{formData.email}</p>
-                                   <p><strong>Number of Guests:</strong>{formData.guests}</p>
+                                   <p><strong>Number of Guests:</strong>{formData.persons}</p>
                                     <p><strong>Date & Time:</strong>{formData.date}</p>
                             </div>
                             <button className="close-btn" onClick={closePopup}>Close</button>
