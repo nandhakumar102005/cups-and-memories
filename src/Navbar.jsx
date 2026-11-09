@@ -22,7 +22,7 @@ function Navbar() {
                           <Link to={"/"}><li className="nav-item p-2  nav-li">Home</li></Link>
                            <Link to="/About" > <li className="nav-item p-2  nav-li">About Us</li></Link>
                       <Link to={"/Menu"}><li className="nav-item p-2  nav-li">Menu</li></Link> 
-                      <Link to={"/TableBooking"}><li className="nav-item p-2  nav-li">Reserve Table</li> </Link>   
+                      <Link to={"/TableBooking"}><li className="nav-item p-2  nav-li">Table Booking</li> </Link>   
 
                      <Link to={"/Contact"}><li className="nav-item p-2  nav-li" id="navconttext">Contact Us</li></Link>  
 
