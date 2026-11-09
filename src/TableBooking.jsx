@@ -93,11 +93,11 @@ const Handlesubmit =(e)=>{
                         <div className="popup-card">
                             <h2>Table Booked Sucessfully!</h2>
                             <div className="popup-details">
-                                <p><strong>Name:</strong>\t{formData.name}</p>
-                                 <p><strong>Phone:</strong>\t{formData.number}</p>
-                                  <p><strong>Email:</strong>\t{formData.email}</p>
-                                   <p><strong>Number of Guests:\t</strong>{formData.guests}</p>
-                                    <p><strong>Date & Time:</strong>\t{formData.date}</p>
+                                <p><strong>Name:</strong>{formData.name}</p>
+                                 <p><strong>Phone:</strong>{formData.number}</p>
+                                  <p><strong>Email:</strong>{formData.email}</p>
+                                   <p><strong>Number of Guests:</strong>{formData.guests}</p>
+                                    <p><strong>Date & Time:</strong>{formData.date}</p>
                             </div>
                             <button className="close-btn" onClick={closePopup}>Close</button>
                         </div>
